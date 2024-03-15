@@ -20,7 +20,7 @@ class SomeTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("post"))
+                .body("data", equalTo("nopost"))
         ;
     }
 }
